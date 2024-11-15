@@ -28,7 +28,10 @@ WELCOME_MESSAGE = (
     "Don't worry! Simply try another server option provided in the list.\n\n"
     "📩 Need help or have suggestions? Contact the developer: @mrottseller\n\n"
     "🌟 Enjoy seamless entertainment anytime, anywhere!"
+    "🌟 To Search movies use /search example:/search iron man , /search bat man , /search venom"
+    
 )
+
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
